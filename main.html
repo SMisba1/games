@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Club</title>
+    <link rel="stylesheet" href="main_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+    <!-- Home Section -->
+    <section id="Home">
+        <nav class="sticky">
+            <!-- <a href="#" class="logo"><img src="logo_new.png" alt="Club Logo"></a> -->
+             <h3><i>Gamer</i></h3>
+            <div class="menu">
+                <div class="btn">
+                    <i class="fas fa-times close-btn"></i>
+                </div>
+                <a href="#" onclick="navigateTo('bs')">bubble-shooter</a>
+                <a href="#" onclick="navigateTo('cc')">candy-crush</a>
+                <a href="#" onclick="navigateTo('ttt')">Tic-Tac-Toe</a>
+                <a href="#" onclick="navigateTo('sg')">Snake Game</a>
+                <a href="#" onclick="navigateTo('gtn')">Guess the Number</a>
+                
+            </div>
+            <div class="btn">
+                <i class="fas fa-bars menu-btn"></i>
+            </div>
+        </nav>
+    </section>
+
+
+
+
+  
+    <section id="Teams" style="display: none;">
+        {% comment %} <a href="Bubble Shooter/bubble-shooter/index.html"></a>         {% endcomment %}
+        <form id="bs" action="Bubble Shooter/bubble-shooter/index.html" method="post" target="_blank" >
+        </form>
+        
+    </section>
+
+    <section id="Teams" style="display: none;">
+        <a href="Candy crush/candy-crush/index.html"></a>        
+       
+   </section>
+
+   <section id="Teams" style="display: none;">
+    <a href="Tic-Tac-Toe/main.py"></a>        
+   
+</section>
+
+<!-- <section id="Teams" style="display: none;">
+    <a href="Snake Game"></a>        
+   
+</section> -->
+
+<section id="Teams" style="display: none;">
+    <a href="2048/2048/index.html"></a>        
+   
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
